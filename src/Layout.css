@@ -1,0 +1,19 @@
+.app-layout {
+    display: flex;
+    min-height: 100vh;
+}
+
+.app-content {
+    flex-grow: 1; 
+    width: 83.2%; 
+    min-height: 100vh;
+    padding: var(--spacing-2xl); 
+    background-color: var(--bg-secondary);
+}
+
+@media (min-width: 1024px) { 
+    .app-content {
+        flex-grow: 1; 
+        width: 83.2%; 
+    }
+}

@@ -1,0 +1,42 @@
+@import './styles/variables.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, #root, .app-layout {
+  height: 100%;
+  min-height: 100vh;
+}
+
+body {
+  /* Aplicamos Poppins y eliminamos las fuentes por defecto */
+  font-family: 'Poppins', sans-serif; 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Usamos variables de Solinal */
+  background-color: var(--bg-tertiary); 
+  color: var(--text-primary);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Estilos globales */
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+input, textarea, select {
+  font-family: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
